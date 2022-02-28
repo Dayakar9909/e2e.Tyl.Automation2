@@ -15,8 +15,6 @@ public class TargetObjects {
 	@FindBy(className="login-box")
 	public WebElement LoginFragment;
 	
-
-	
 	@FindBy(name="user-name")
 	public WebElement UserName;
 
@@ -47,8 +45,6 @@ public class TargetObjects {
 	@FindBy(className="product_sort_container")
 	//By using Select class for selecting value from dropdown  
 	public WebElement MyAccount;
-	
-	
 	
 	@FindBy(className="title")
 	public WebElement Welcome;

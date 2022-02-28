@@ -118,7 +118,6 @@ public class StepDefinations{
 		homePageTitleAssertion.CheckTitleAssertion();
 	}
 
-
 	@Then("^close the browser$")
 	public void close_the_browser() throws Throwable {
 		closeBrowser = new CloseBrowser(driver);
@@ -136,8 +135,6 @@ public class StepDefinations{
 		userSubmitsLogin.UserSubmitsLoginCheckAssertion();
 	}
 
-
-	
 	@Then("^user should able to select the selection$")
 	public void user_should_able_to_select_the_selection() throws Throwable {
 		userMakesSelection = new UserMakesSelection(driver);
@@ -150,9 +147,7 @@ public class StepDefinations{
 		userClickOnShoppingCart.ShoppingCartButton();
 	}
 	
-	
-	
-	@Then("^user clicks on go to checkout button$")
+		@Then("^user clicks on go to checkout button$")
 	public void user_clicks_on_go_to_checkout_button() throws Throwable {
 		clickOnCheckOutButton = new ClickOnCheckOutButton(driver);
 		clickOnCheckOutButton.CheckOutButton();
@@ -166,7 +161,6 @@ public class StepDefinations{
 	  
 	}
 	
-	
 	@Then("^user finish the purchase$")
 	public void user_finish_the_purchase() throws Throwable {
 		clickOnContinueButton = new ClickOnContinueButton(driver);
@@ -175,9 +169,7 @@ public class StepDefinations{
 		
 	}
 	
-	
-	
-	
+		
 	@Then("^user should be able to see the checkout complete page$")
 	public void user_should_be_able_to_see_the_checkout_complete_page() throws Throwable {
 		checkoutCompletPageTitleAssertion  = new CheckoutCompletPageTitleAssertion(driver);
