@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 
 // Hahaha Merry Christmas Message for whole world!
+// Hahaha Happy New year to the younger generation in the world
 public class OpenBrowserURL {
 	WebDriver driver;
 	public OpenBrowserURL(WebDriver driver) {
